@@ -9,13 +9,13 @@ It enables the optional chaining operator (`a ?. b`): [see the TC39 proposal](ht
 Install the plugin and its dependencies :
 
 ```bash
-npm i gatsby-plugin-optional-chaining @babel/core @babel/plugin-proposal-optional-chaining
+npm i @bumped-inc/gatsby-plugin-optional-chaining @babel/core @babel/plugin-proposal-optional-chaining
 ```
 
 or
 
 ```bash
-yarn add gatsby-plugin-optional-chaining @babel/core @babel/plugin-proposal-optional-chaining
+yarn add @bumped-inc/gatsby-plugin-optional-chaining @babel/core @babel/plugin-proposal-optional-chaining
 ```
 
 Add the plugin in `gatsby-config.js`:
@@ -24,7 +24,7 @@ Add the plugin in `gatsby-config.js`:
 module.exports = {
   plugins: [
     // other plugins
-    'gatsby-plugin-optional-chaining',
+    '@bumped-inc/gatsby-plugin-optional-chaining',
   ],
 }
 ```

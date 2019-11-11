@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-plugin-optional-chaining",
+  "name": "@bumped-inc/gatsby-plugin-optional-chaining",
   "version": "1.0.0",
   "description": "Gatsby plugin for optional chaining operator",
   "main": "gatsby-node.js",
